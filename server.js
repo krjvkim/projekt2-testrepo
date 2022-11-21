@@ -13,8 +13,6 @@ app.use(express.static(__dirname + '/public'));
 
 app.get('/*', (req, res) => {
   res.sendFile(path.resolve(__dirname, "frontend", "webappstartseite.html"));
-  res.sendFile(path.resolve(__dirname, "frontend", "projektpartnerseite.html"));
-  res.sendFile(path.resolve(__dirname, "frontend", "module.php"));
   res.sendFile(path.resolve(__dirname, "frontend", "style.css"));
 })
 
