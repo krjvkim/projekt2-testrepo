@@ -52,7 +52,6 @@ c{
 a:hover{
     text-decoration: underline;
 }
-/*Inputs*/
 
 input,
 textarea{
@@ -68,7 +67,6 @@ input:focus,
 textarea:focus{
     outline: none;
 }
-/*Banner*/
 
 #banner {
     height: 100vh;
@@ -116,11 +114,10 @@ textarea:focus{
     width: 100%; 
 }
 
-/*Navigation*/
 
 nav {
     height: 72px;
-    background: #002830 /*#202125*/ ;
+    background: #002830;
     width: 100%;
     margin: 0;
     position: fixed;
@@ -198,7 +195,6 @@ nav ul{
     color: #006d6d;
 }
 
-/*Slideout Menu*/
 
 #slideout-menu{
     display: none;
@@ -239,8 +235,6 @@ nav ul{
 
 
 
-/*Sections*/
-
 section {
     display: flex;
     justify-content: space-around;
@@ -273,7 +267,7 @@ section {
     border-right: 3px solid white;
 }
 
-/* Section Project*/
+
 
 #section-source p {
     padding: 8px;
@@ -285,7 +279,7 @@ section {
     text-align: center;
 }
 
-/* Card */
+
 
 .card-image{
     transition: 0.5s;
@@ -310,7 +304,7 @@ section {
     color: #333;
 }
 
-/* Button Read more */
+
 
 .btn-mehrerfahren{
     padding: 8px 24px;
@@ -331,7 +325,6 @@ section {
     color: white;
 }
 
-/* Footer */
 
 footer{
     background: #002830;
@@ -370,10 +363,6 @@ footer #right-footer h3{
     color:rgb(69, 112, 114);
 }
 
-/*footer #right-footer p{
-    color:rgb(69, 112, 114);
-}*/
-
 footer #social-mediafooter a .fa-instagram,
 footer #social-mediafooter a .fa-youtube,
 footer #social-mediafooter a .fa-linkedin{
@@ -406,7 +395,7 @@ footer #social-media-footer ul li:hover a .fa-linkedin{
     color: #0e76a8;
 }
 
-/* Über das Projekt Page */
+
 
 .page-heading{
     font-size: 32px;
@@ -438,7 +427,6 @@ footer #social-media-footer ul li:hover a .fa-linkedin{
     color: #333;
 }
 
-/* Pagination */
 .pagination{
     padding: 8py;
     text-align: center;
@@ -456,8 +444,6 @@ footer #social-media-footer ul li:hover a .fa-linkedin{
     text-decoration: none;
     border-top: 3px solid black;
 }
-
-/* Single Blogpost */
 
 #post-container{
     display: flex;
@@ -478,7 +464,6 @@ footer #social-media-footer ul li:hover a .fa-linkedin{
     box-shadow: none;
 }
 
-/* Sidebar */
 
 #sidebar{
     background: #333;
@@ -493,14 +478,11 @@ aside a{
 }
 
 
-/* Comments Section */
 
 #comments-section{
     border-top: 2px solid #eee;
     padding: 8px;
 }
-
-/* Media Queries */
 
 @media (max-width: 900px){
     nav ul{
