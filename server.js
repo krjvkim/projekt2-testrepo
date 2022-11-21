@@ -15,7 +15,7 @@ app.get('/*', (req, res) => {
   res.sendFile(path.resolve(__dirname, "frontend", "webappstartseite.html"));
   res.sendFile(path.resolve(__dirname, "frontend", "projektpartnerseite.html"));
   res.sendFile(path.resolve(__dirname, "frontend", "module.php"));
-  res.sendFile(path.resolve(__dirname, "frontend", "css/style.css"));
+  res.sendFile(path.resolve(__dirname, "frontend", "style.css"));
 })
 
 
