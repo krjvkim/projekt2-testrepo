@@ -12,7 +12,7 @@ app.use("/static", express.static(path.resolve(__dirname, "frontend", "static"))
 app.use(express.static(__dirname + '/public'));
 
 app.get('/*', (req, res) => {
-  res.sendFile(path.resolve(__dirname, "frontend", "projektpartner.html"));
+  res.sendFile(path.resolve(__dirname, "frontend", "projektpartner.php"));
   res.sendFile(path.resolve(__dirname, "frontend", "style.css"));
 })
 
